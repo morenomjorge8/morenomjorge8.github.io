@@ -1,0 +1,60 @@
+/* estilos.css */
+
+/* Fondo degradado para todo el cuerpo */
+body {
+    background-image: linear-gradient(to right, #0B3954, #5497A7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #5497A7;
+  }
+  
+  .nav-link:hover {
+    color: #0B3954;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  /* Estilos para imágenes */
+  #acerca-de-mi img {
+    border-radius: 50%;
+    width: 35%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  

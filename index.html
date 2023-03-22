@@ -1,17 +1,87 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" herf="bootstrap.min.css">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="estilos.css" rel="stylesheet">
+  <title>Mi Portafolio - Jorge Luis Moreno Monreal</title>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="container my-4">
+    <h1>Jorge Luis Moreno Monreal</h1>
+    <h2 class="h4">Licenciado en Economía</h2>
+  </header>
 
-  </head>
-  <body>
-        <h1>Hola mundooo!</h1>
-    
-        <script src="js/bootstrap.esm.min.js"></script>
-  </body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Sección "Acerca de mí" -->
+<section id="acerca-de-mi" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Acerca de mí</h2>
+        <p>
+          Soy un sonorense que actualmente reside en la Ciudad de México. Soy egresado de la Licenciatura de Economía del ITAM. Sin embargo, también me apasiona la programación y me gusta experimentar con diferentes lenguajes y herramientas. Creo que la combinación de habilidades en economía y programación me permite tener una perspectiva única en el análisis de datos y la resolución de problemas complejos.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <!-- Agregar una imagen tuya aquí -->
+        <img src="jorge2.png" alt="Tu nombre" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  
+  
+<!-- Sección "Experiencia laboral" -->
+<section id="experiencia-laboral" class="container py-5">
+    <h2>Experiencia laboral</h2>
+    <p>
+      Mi experiencia laboral incluye un año de trabajo en Integralia, una consultora de riesgo político, donde fui parte del equipo encargado de crear indicadores de sentimiento a partir del análisis de tweets relacionados con los gobernadores de las entidades federativas de México. Durante mi tiempo en Integralia, tuve la oportunidad de trabajar con herramientas como R y Python, lo que me permitió adquirir habilidades valiosas en el análisis de datos y el desarrollo de indicadores.
+    </p>
+    <p>
+      Actualmente, cuento con tres años de experiencia laboral en el INEGI, un órgano autónomo del estado encargado de publicar las estadísticas oficiales del país. Formo parte del área especializada en estadísticas de Gobierno, Seguridad y Justicia, donde me he desempeñado en tareas de coordinación interinstitucional, georeferenciación estadística con QGis y Análisis de datos con R.
+    </p>
+  </section>
+
+<!-- Sección "Lenguajes de programación" -->
+<section id="lenguajes-programacion" class="container py-5">
+    <h2>Lenguajes de programación</h2>
+    <p>
+      En cuanto a mis habilidades en programación, he impartido cursos introductorios en R Studio, lo que me ha permitido familiarizarme con el lenguaje y sus principales aplicaciones en análisis estadístico. También estoy familiarizado con el uso intermedio de Python, lo que me ha permitido desarrollar aplicaciones simples y automatizar procesos en diferentes proyectos. Además, utilizo QGis como plataforma para georreferenciación estadística, lo que me ha permitido visualizar y analizar datos espaciales de manera efectiva.
+    </p>
+  </section>
+
+  <!-- Sección "Proyectos" -->
+  <!-- Sección "Contacto" -->
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
 
 
